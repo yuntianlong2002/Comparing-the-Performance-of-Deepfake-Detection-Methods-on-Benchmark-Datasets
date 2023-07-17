@@ -27,7 +27,8 @@ def upload_predict():
             )
             image_file.save(image_location)
             select = request.form.get('methodchoice')
-            if image_file.filename.endswith(".jpg"):
+            allowed_extensions = (".jpg", ".jpeg", ".png")
+            if image_file.filename.endswith(allowed_extensions):
                 method, pred = dfdetector.DFDetector.detect_single(image_path=image_location, method=select)
             elif image_file.filename.endswith(".mp4") or image_file.filename.endswith(".avi"):
                 method, pred = dfdetector.DFDetector.detect_single(video_path=image_location, method=select)
