@@ -4,6 +4,14 @@ import torch
 import torch.nn as nn
 import torchvision.models as models
 
+class Swish(nn.Module):
+    def __init__(self, inplace: bool = False):
+        super(Swish, self).__init__()
+        self.inplace = inplace
+
+    def forward(self, x):
+        return x.mul_(x.sigmoid()) if self.inplace else x.mul(x.sigmoid())
+
 class EfficientNetB1LSTM(nn.Module):
     """
     Implementation of a EfficientNetB1 + LSTM that was one part of the DeepfakeDetection Challenge
@@ -30,7 +38,7 @@ class EfficientNetB1LSTM(nn.Module):
         self.b1 = nn.Sequential(*list(self.b1.children())[:-2],
                    nn.Conv2d(1280, 128, 1, bias=False),
                    nn.BatchNorm2d(128),
-                   timm.models.efficientnet.Swish(),
+                   Swish(),
                    nn.AdaptiveAvgPool2d((1, 1)))
         self.lstm = nn.LSTM(input_size=128, hidden_size=hidden_size, num_layers=num_layers, batch_first=True)
         self.fc1 = nn.Linear(hidden_size, 64)
