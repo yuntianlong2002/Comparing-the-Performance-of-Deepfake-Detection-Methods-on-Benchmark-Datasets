@@ -1377,7 +1377,7 @@ def label_data(dataset_path=None, dataset='uadfv', method='xception', face_crops
                 '/' + reals['videoname'].apply(str) + '.avi'
             # remove testing videos from training videos
             reals = reals[reals['testlist'].isin(test_vids)]
-            reals['videoname'] = reals['videoname'].apply(str) + '.avi'
+            reals['videoname'] = reals['videoname'].astype(str) + '.avi'
             del reals['videofolder']
             reals['label'] = 0
             reals['path'] = dataset_path + '/dftimitreal/' + reals['path']

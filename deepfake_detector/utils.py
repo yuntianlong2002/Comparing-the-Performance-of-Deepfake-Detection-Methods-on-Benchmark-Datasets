@@ -31,7 +31,7 @@ def vidtimit_setup_real_videos(path_to_dataset):
                 vid_path2 = os.path.join(path + '/' + d + '/')
                 # create real videos in avi format similar to deepfakes and avoid duplicate names with counter
                 subprocess.call(
-                    ['ffmpeg', '-r', '25', '-i', f"{vid_path}", "-c:v", "libxvid", f'{vid_path2 + str(counter)+  file_ending}'])
+                    ['ffmpeg', '-f', 'image2', '-framerate', '25', '-i', f"{vid_path}", f'{vid_path2 + str(counter)+  file_ending}'])
                 counter += 1
     # remove all jpgs, so that only the videos are left
     for path, dirs, files in os.walk(path_to_dataset):
@@ -227,7 +227,7 @@ def dfdc_metadata_setup():
         if num == 0:
             continue
         sample = fakes[fakes['folder'] == num].sample(378, random_state=24)
-        fakes_sampled = fakes_sampled.append(sample, ignore_index=True)
+        fakes_sampled = pd.concat([fakes_sampled, sample], ignore_index=True)
     # drop 36 videos randomly to have exactly 16974 fakes
     np.random.seed(24)
     drop_indices = np.random.choice(fakes_sampled.index, 36, replace=False)
@@ -240,10 +240,14 @@ def dfdc_metadata_setup():
         300, random_state=24)
     fake_sample = all_meta_train[all_meta_train['label'] == 1].sample(
         300, random_state=24)
-    full_margin_aug_val = real_sample.append(fake_sample, ignore_index=True)
+    full_margin_aug_val = pd.concat([real_sample, fake_sample], ignore_index=True)
     # create test set
     test_df = all_meta[all_meta['folder'] > 44]
     del test_df['folder']
     all_meta_test = test_df.reset_index(drop=True)
 
     return all_meta_train, all_meta_test, full_margin_aug_val
+
+if __name__ == "__main__":
+    # You can now call the function here
+    vidtimit_setup_real_videos("/home/tianlong/Downloads/dftimit/real")
