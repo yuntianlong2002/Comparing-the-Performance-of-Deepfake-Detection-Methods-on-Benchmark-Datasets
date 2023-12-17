@@ -1,0 +1,93 @@
+The random seed is set to 24.
+Benchmarking [1mxception_dftimit_lq[0m on the [1m Celeb-DF [0m dataset with ...
+518 test videos.
+/home/tianlong/Comparing-the-Performance-of-Deepfake-Detection-Methods-on-Benchmark-Datasets/deepfake_detector/pretrained_mods/weights/xception_dftimit_lq.pth
+Detecting deepfakes with [1mxception_dftimit_lq[0m ...
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Benchmark results:
+Confusion matrix (video-level):
+[[ 13   3]
+ [327 175]]
+Loss: 4.04033
+Acc: 0.36293
+AUC: 0.65963
+AP: 0.65963
+Confusion matrix (frame-level):
+[[ 349   60]
+ [6425 3462]]
+Frame-level AUC: 0.6071
+Frame-level ACC: 0.37014
+
+Cost (best possible cost is 0.0):
+-2.9256884298210646 cost for 0.1 recall.
+-3.414829530452213 cost for 0.5 recall.
+-3.816490578706582 cost for 0.9 recall.
+Duration: 7.0 min and 0.5464780330657959 sec.
+
+Detected [1m 13[0m true deepfake videos and correctly classified [1m 175[0m real videos.
+Mistook [1m 3[0m real videos for deepfakes and [1m 327[0m deepfakes went by undetected by the method.

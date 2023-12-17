@@ -1,0 +1,92 @@
+The random seed is set to 24.
+Benchmarking [1mefficientnetb7_dftimit_hq[0m on the [1m Celeb-DF [0m dataset with ...
+518 test videos.
+Detecting deepfakes with [1mefficientnetb7_dftimit_hq[0m ...
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Benchmark results:
+Confusion matrix (video-level):
+[[  4   0]
+ [336 178]]
+Loss: 4.54354
+Acc: 0.35135
+AUC: 0.63189
+AP: 0.63189
+Confusion matrix (frame-level):
+[[ 192   27]
+ [6582 3495]]
+Frame-level AUC: 0.59922
+Frame-level ACC: 0.3581
+
+Cost (best possible cost is 0.0):
+-2.9256884298210646 cost for 0.1 recall.
+-3.507145959671536 cost for 0.5 recall.
+-3.8656025802276743 cost for 0.9 recall.
+Duration: 10.0 min and 20.06018090248108 sec.
+
+Detected [1m 4[0m true deepfake videos and correctly classified [1m 178[0m real videos.
+Mistook [1m 0[0m real videos for deepfakes and [1m 336[0m deepfakes went by undetected by the method.

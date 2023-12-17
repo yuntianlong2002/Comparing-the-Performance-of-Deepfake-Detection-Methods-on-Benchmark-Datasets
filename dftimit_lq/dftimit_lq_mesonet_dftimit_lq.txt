@@ -1,0 +1,29 @@
+The random seed is set to 24.
+Benchmarking [1mmesonet_dftimit_lq[0m on the [1m DF-TIMIT-LQ [0m dataset with ...
+/home/tianlong/Comparing-the-Performance-of-Deepfake-Detection-Methods-on-Benchmark-Datasets/deepfake_detector/pretrained_mods/weights/mesonet_dftimit_lq.pth
+Detecting deepfakes with [1mmesonet_dftimit_lq[0m ...
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Benchmark results:
+Confusion matrix (video-level):
+[[60  0]
+ [ 0 60]]
+Loss: 0.6166
+Acc: 1.0
+AUC: 1.0
+AP: 1.0
+Confusion matrix (frame-level):
+[[1200  118]
+ [   0 1082]]
+Frame-level AUC: 0.98
+Frame-level ACC: 0.95083
+
+Cost (best possible cost is 0.0):
+0.0 cost for 0.1 recall.
+0.0 cost for 0.5 recall.
+0.0 cost for 0.9 recall.
+Duration: 0.0 min and 47.114508628845215 sec.
+
+Detected [1m 60[0m true deepfake videos and correctly classified [1m 60[0m real videos.
+Mistook [1m 0[0m real videos for deepfakes and [1m 0[0m deepfakes went by undetected by the method.
+Wow! A perfect classifier!

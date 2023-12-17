@@ -469,9 +469,9 @@ class DFDetector():
             cls.method, dataset=cls.dataset, mode='train')
         # # get video train data and labels
         df = label_data(dataset_path=cls.data_path,
-                        dataset=cls.dataset, test_data=False, fulltrain=cls.fulltrain)
+                        dataset=cls.dataset, test_data=False, fulltrain=True)
         # detect and extract faces if they are not available already
-        if not cls.faces_available:
+        if True:
             if cls.dataset == 'uadfv':
                 addon_path = '/train_imgs/'
                 if not os.path.exists(img_save_path + '/train_imgs/'):

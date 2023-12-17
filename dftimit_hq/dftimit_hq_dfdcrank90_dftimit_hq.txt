@@ -1,0 +1,29 @@
+The random seed is set to 24.
+Benchmarking [1mdfdcrank90_dftimit_hq[0m on the [1m DF-TIMIT-HQ [0m dataset with ...
+Inference EfficientNetB1 + LSTM
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Inference Xception One
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Inference Xception Two
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Benchmark results:
+Confusion matrix:
+[[60  0]
+ [ 0 60]]
+Loss: 0.53098
+Acc: 1.0
+AUC: 1.0
+AP: 1.0
+
+Cost (best possible cost is 0.0):
+0.0 cost for 0.1 recall.
+0.0 cost for 0.5 recall.
+0.0 cost for 0.9 recall.
+Duration: 2.0 min and 45.23514127731323 sec.
+
+Detected [1m 60[0m true deepfake videos and correctly classified [1m 60[0m real videos.
+Mistook [1m 0[0m real videos for deepfakes and [1m 0[0m deepfakes went by undetected by the method.
+Wow! A perfect classifier!

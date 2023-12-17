@@ -1,0 +1,92 @@
+The random seed is set to 24.
+Benchmarking [1mefficientnetb7_uadfv[0m on the [1m Celeb-DF [0m dataset with ...
+518 test videos.
+Detecting deepfakes with [1mefficientnetb7_uadfv[0m ...
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Benchmark results:
+Confusion matrix (video-level):
+[[  5   0]
+ [335 178]]
+Loss: 1.98351
+Acc: 0.35328
+AUC: 0.46826
+AP: 0.46826
+Confusion matrix (frame-level):
+[[ 180   46]
+ [6594 3476]]
+Frame-level AUC: 0.47413
+Frame-level ACC: 0.35509
+
+Cost (best possible cost is 0.0):
+-3.7418624965434044 cost for 0.1 recall.
+-4.040985151397078 cost for 0.5 recall.
+-3.9818172986103146 cost for 0.9 recall.
+Duration: 10.0 min and 17.78285241127014 sec.
+
+Detected [1m 5[0m true deepfake videos and correctly classified [1m 178[0m real videos.
+Mistook [1m 0[0m real videos for deepfakes and [1m 335[0m deepfakes went by undetected by the method.

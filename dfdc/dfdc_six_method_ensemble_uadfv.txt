@@ -1,0 +1,33 @@
+The random seed is set to 24.
+Reading metadata...this can take a minute.
+Formatting metadata...
+     label                                          video       videoname
+0        0  /home/tianlong/Downloads//test/myvwyfdnxu.mp4  myvwyfdnxu.mp4
+1        0  /home/tianlong/Downloads//test/uxgkqpiykp.mp4  uxgkqpiykp.mp4
+2        0  /home/tianlong/Downloads//test/qyscponfaf.mp4  qyscponfaf.mp4
+3        0  /home/tianlong/Downloads//test/tmgmbnzrrz.mp4  tmgmbnzrrz.mp4
+4        0  /home/tianlong/Downloads//test/wfmeffvvce.mp4  wfmeffvvce.mp4
+..     ...                                            ...             ...
+995      1  /home/tianlong/Downloads//test/jovrnujurf.mp4  jovrnujurf.mp4
+996      1  /home/tianlong/Downloads//test/sbwemwjlsl.mp4  sbwemwjlsl.mp4
+997      1  /home/tianlong/Downloads//test/uclzxnftij.mp4  uclzxnftij.mp4
+998      1  /home/tianlong/Downloads//test/sdqjjttckw.mp4  sdqjjttckw.mp4
+999      1  /home/tianlong/Downloads//test/wtmggpeiom.mp4  wtmggpeiom.mp4
+
+[1000 rows x 3 columns]
+Benchmark results:
+Confusion matrix:
+[[493   3]
+ [477  20]]
+Loss: 0.68874
+Acc: 0.51662
+AUC: 0.60673
+AP: 0.60673
+
+Cost (best possible cost is 0.0):
+-3.367295829986474 cost for 0.1 recall.
+-4.260981507067858 cost for 0.5 recall.
+-4.576825824586085 cost for 0.9 recall.
+
+Detected [1m 20[0m true deepfake videos and correctly classified [1m 493[0m real videos.
+Mistook [1m 3[0m real videos for deepfakes and [1m 477[0m deepfakes went by undetected by the method.

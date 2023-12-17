@@ -1,0 +1,92 @@
+The random seed is set to 24.
+Benchmarking [1mefficientnetb7_celebdf[0m on the [1m Celeb-DF [0m dataset with ...
+518 test videos.
+Detecting deepfakes with [1mefficientnetb7_celebdf[0m ...
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Benchmark results:
+Confusion matrix (video-level):
+[[329   1]
+ [ 11 177]]
+Loss: 0.13135
+Acc: 0.97683
+AUC: 0.99838
+AP: 0.99838
+Confusion matrix (frame-level):
+[[6324   36]
+ [ 450 3486]]
+Frame-level AUC: 0.99609
+Frame-level ACC: 0.9528
+
+Cost (best possible cost is 0.0):
+0.0 cost for 0.1 recall.
+0.0 cost for 0.5 recall.
+-0.2827680576493519 cost for 0.9 recall.
+Duration: 10.0 min and 19.517030715942383 sec.
+
+Detected [1m 329[0m true deepfake videos and correctly classified [1m 177[0m real videos.
+Mistook [1m 1[0m real videos for deepfakes and [1m 11[0m deepfakes went by undetected by the method.

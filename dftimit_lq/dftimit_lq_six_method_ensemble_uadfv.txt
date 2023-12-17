@@ -1,0 +1,18 @@
+The random seed is set to 24.
+Benchmarking [1msix_method_ensemble_uadfv[0m on the [1m DF-TIMIT-LQ [0m dataset with ...
+Benchmark results:
+Confusion matrix:
+[[51  9]
+ [32 28]]
+Loss: 0.68739
+Acc: 0.65833
+AUC: 0.70333
+AP: 0.70333
+
+Cost (best possible cost is 0.0):
+-3.536116699561526 cost for 0.1 recall.
+-3.9318256327243257 cost for 0.5 recall.
+-4.067442720958709 cost for 0.9 recall.
+
+Detected [1m 28[0m true deepfake videos and correctly classified [1m 51[0m real videos.
+Mistook [1m 9[0m real videos for deepfakes and [1m 32[0m deepfakes went by undetected by the method.

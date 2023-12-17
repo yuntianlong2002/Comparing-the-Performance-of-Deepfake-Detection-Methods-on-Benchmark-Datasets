@@ -1,0 +1,28 @@
+The random seed is set to 24.
+Benchmarking [1mxception_uadfv[0m on the [1m DF-TIMIT-LQ [0m dataset with ...
+/home/tianlong/Comparing-the-Performance-of-Deepfake-Detection-Methods-on-Benchmark-Datasets/deepfake_detector/pretrained_mods/weights/xception_uadfv.pth
+Detecting deepfakes with [1mxception_uadfv[0m ...
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Benchmark results:
+Confusion matrix (video-level):
+[[ 7 11]
+ [53 49]]
+Loss: 1.52214
+Acc: 0.46667
+AUC: 0.42139
+AP: 0.42139
+Confusion matrix (frame-level):
+[[ 168  238]
+ [1032  962]]
+Frame-level AUC: 0.46922
+Frame-level ACC: 0.47083
+
+Cost (best possible cost is 0.0):
+-5.017279836814924 cost for 0.1 recall.
+-4.875197323201151 cost for 0.5 recall.
+-4.651134491689262 cost for 0.9 recall.
+Duration: 0.0 min and 56.61417865753174 sec.
+
+Detected [1m 7[0m true deepfake videos and correctly classified [1m 49[0m real videos.
+Mistook [1m 11[0m real videos for deepfakes and [1m 53[0m deepfakes went by undetected by the method.

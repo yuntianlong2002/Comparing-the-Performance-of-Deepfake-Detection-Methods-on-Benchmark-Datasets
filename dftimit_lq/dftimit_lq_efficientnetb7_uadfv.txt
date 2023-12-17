@@ -1,0 +1,27 @@
+The random seed is set to 24.
+Benchmarking [1mefficientnetb7_uadfv[0m on the [1m DF-TIMIT-LQ [0m dataset with ...
+Detecting deepfakes with [1mefficientnetb7_uadfv[0m ...
+Inference using 20 frames per video.
+Use face margin of 30.0 %
+Benchmark results:
+Confusion matrix (video-level):
+[[ 0  0]
+ [60 60]]
+Loss: 1.42907
+Acc: 0.5
+AUC: 0.30639
+AP: 0.30639
+Confusion matrix (frame-level):
+[[   0   22]
+ [1200 1178]]
+Frame-level AUC: 0.41859
+Frame-level ACC: 0.49083
+
+Cost (best possible cost is 0.0):
+-6.147755791434351 cost for 0.1 recall.
+-5.017279836814924 cost for 0.5 recall.
+-4.577760923681211 cost for 0.9 recall.
+Duration: 1.0 min and 42.59104943275452 sec.
+
+Detected [1m 0[0m true deepfake videos and correctly classified [1m 60[0m real videos.
+Mistook [1m 0[0m real videos for deepfakes and [1m 60[0m deepfakes went by undetected by the method.

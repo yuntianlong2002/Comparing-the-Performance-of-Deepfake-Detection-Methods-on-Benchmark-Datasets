@@ -1,0 +1,108 @@
+The random seed is set to 24.
+Reading metadata...this can take a minute.
+Formatting metadata...
+     label                                          video       videoname
+0        0  /home/tianlong/Downloads//test/myvwyfdnxu.mp4  myvwyfdnxu.mp4
+1        0  /home/tianlong/Downloads//test/uxgkqpiykp.mp4  uxgkqpiykp.mp4
+2        0  /home/tianlong/Downloads//test/qyscponfaf.mp4  qyscponfaf.mp4
+3        0  /home/tianlong/Downloads//test/tmgmbnzrrz.mp4  tmgmbnzrrz.mp4
+4        0  /home/tianlong/Downloads//test/wfmeffvvce.mp4  wfmeffvvce.mp4
+..     ...                                            ...             ...
+995      1  /home/tianlong/Downloads//test/jovrnujurf.mp4  jovrnujurf.mp4
+996      1  /home/tianlong/Downloads//test/sbwemwjlsl.mp4  sbwemwjlsl.mp4
+997      1  /home/tianlong/Downloads//test/uclzxnftij.mp4  uclzxnftij.mp4
+998      1  /home/tianlong/Downloads//test/sdqjjttckw.mp4  sdqjjttckw.mp4
+999      1  /home/tianlong/Downloads//test/wtmggpeiom.mp4  wtmggpeiom.mp4
+
+[1000 rows x 3 columns]
+/home/tianlong/Comparing-the-Performance-of-Deepfake-Detection-Methods-on-Benchmark-Datasets/deepfake_detector/pretrained_mods/weights/resnet_lstm_dfdc.pth
+Detecting deepfakes with [1mresnet_lstm_dfdc[0m ...
+Inference using 5 frames per video.
+Use face margin of 30.0 %
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Benchmark results:
+Confusion matrix (video-level):
+[[366 155]
+ [131 341]]
+Loss: 0.55535
+Acc: 0.71198
+AUC: 0.78754
+AP: 0.78754
+
+Cost (best possible cost is 0.0):
+-1.6094379124341003 cost for 0.1 recall.
+-3.3144050387331974 cost for 0.5 recall.
+-4.107942170487484 cost for 0.9 recall.
+Duration: 15.0 min and 43.70578169822693 sec.
+
+Detected [1m 366[0m true deepfake videos and correctly classified [1m 341[0m real videos.
+Mistook [1m 155[0m real videos for deepfakes and [1m 131[0m deepfakes went by undetected by the method.

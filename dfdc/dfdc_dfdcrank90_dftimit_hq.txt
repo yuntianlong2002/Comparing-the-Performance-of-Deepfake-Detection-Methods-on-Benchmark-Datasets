@@ -1,0 +1,253 @@
+The random seed is set to 24.
+Reading metadata...this can take a minute.
+Formatting metadata...
+     label                                          video       videoname
+0        0  /home/tianlong/Downloads//test/myvwyfdnxu.mp4  myvwyfdnxu.mp4
+1        0  /home/tianlong/Downloads//test/uxgkqpiykp.mp4  uxgkqpiykp.mp4
+2        0  /home/tianlong/Downloads//test/qyscponfaf.mp4  qyscponfaf.mp4
+3        0  /home/tianlong/Downloads//test/tmgmbnzrrz.mp4  tmgmbnzrrz.mp4
+4        0  /home/tianlong/Downloads//test/wfmeffvvce.mp4  wfmeffvvce.mp4
+..     ...                                            ...             ...
+995      1  /home/tianlong/Downloads//test/jovrnujurf.mp4  jovrnujurf.mp4
+996      1  /home/tianlong/Downloads//test/sbwemwjlsl.mp4  sbwemwjlsl.mp4
+997      1  /home/tianlong/Downloads//test/uclzxnftij.mp4  uclzxnftij.mp4
+998      1  /home/tianlong/Downloads//test/sdqjjttckw.mp4  sdqjjttckw.mp4
+999      1  /home/tianlong/Downloads//test/wtmggpeiom.mp4  wtmggpeiom.mp4
+
+[1000 rows x 3 columns]
+Inference EfficientNetB1 + LSTM
+Inference using 5 frames per video.
+Use face margin of 30.0 %
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Inference Xception One
+Inference using 5 frames per video.
+Use face margin of 30.0 %
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Inference Xception Two
+Inference using 5 frames per video.
+Use face margin of 30.0 %
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+No face detected.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Zero-sized image.
+Benchmark results:
+Confusion matrix:
+[[268 228]
+ [233 264]]
+Loss: 0.71796
+Acc: 0.53575
+AUC: 0.54598
+AP: 0.54598
+
+Cost (best possible cost is 0.0):
+-4.143134726391533 cost for 0.1 recall.
+-4.4179692746017665 cost for 0.5 recall.
+-4.588241994967404 cost for 0.9 recall.
+Duration: 46.0 min and 25.73278260231018 sec.
+
+Detected [1m 264[0m true deepfake videos and correctly classified [1m 268[0m real videos.
+Mistook [1m 228[0m real videos for deepfakes and [1m 233[0m deepfakes went by undetected by the method.
